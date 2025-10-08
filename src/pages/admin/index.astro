@@ -23,7 +23,9 @@ const base = import.meta.env.BASE_URL;
           backend: {
             name: 'github',
             repo: 'VeraCodia/VeraCodia-WebApp',
-            branch: 'main'
+            branch: 'main',
+            base_url: 'https://veracodia-cms-oauth.netlify.app',
+            auth_endpoint: '/.netlify/functions/auth'
           },
           media_folder: 'public/images/uploads',
           public_folder: `${base}images/uploads`,
