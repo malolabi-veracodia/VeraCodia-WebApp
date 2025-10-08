@@ -3,6 +3,10 @@ backend:
   repo: VeraCodia/VeraCodia-WebApp
   branch: main
 
+backend:
+  name: git-gateway
+  branch: main
+
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
