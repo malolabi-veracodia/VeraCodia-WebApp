@@ -1,0 +1,8 @@
+{
+  "name": "veracodia-oauth-provider",
+  "version": "1.0.0",
+  "description": "OAuth provider for Decap CMS",
+  "dependencies": {
+    "simple-oauth2": "^5.0.0"
+  }
+}
